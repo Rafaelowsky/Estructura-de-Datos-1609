@@ -4,24 +4,26 @@
 	11 - Septiembre -2024
 */
 
-// TODO: agregar comentarios
 #include <iostream>
 using namespace std;
 
 int main() {
 
- char mes[12][4] = {"ENE","FEB","MAR","ABR","MAY","JUN",
-                 	"JUL","AGO","SEP","OCT","NOV","DIC"};
+     char mes[12][4] = {"ENE","FEB","MAR","ABR","MAY","JUN",
+                        "JUL","AGO","SEP","OCT","NOV","DIC"};
 
- int i;
+    // Cuando manejamos char tienes que añadir un espacio extra de los que vayan
+    // a ser porque si no, el codigo no compilará.
 
- cout<<"MESES\n"<<endl;
+     int i;
 
- for(i=0; i<12;i++)
+     cout << "MESES\n" << endl;
 
-    cout<<mes[i]<<endl;
+     for(i=0; i<12; i++)
 
- return 0;
+        cout << mes[i] << endl;
+
+     return 0;
 
 
 }
