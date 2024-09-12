@@ -4,7 +4,6 @@
 	11 - Septiembre -2024
 */
 
-// TODO: ciclo while para listas
 #include <iostream>
 #include <cstdlib>
 using namespace std;
