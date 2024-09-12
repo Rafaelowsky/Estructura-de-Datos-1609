@@ -5,6 +5,8 @@
 */
 
 // TODO: hacer que el programa funcione con comandos de c++
+//       resolver bug que provoca que al colocar apellidos se termine la iteración
+
 #include <iostream>
 #include <conio.h>
 #include <cstdlib>
